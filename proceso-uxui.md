@@ -93,8 +93,7 @@ interactivo ya validado.
 
 Se hicieron tres pruebas exploratorias del sitio publicado el **7 de noviembre de 2026**. Las
 notas disponibles no especifican dispositivo, duración ni el recorrido completo de cada persona;
-por eso se registran solo las observaciones compartidas y no se infieren tareas completadas. Las
-observaciones de P3 todavía están pendientes de incorporar.
+por eso se registran solo las observaciones compartidas y no se infieren tareas no mencionadas.
 
 Las tareas propuestas fueron encontrar la carrera y la institución, revisar un proyecto y ubicar
 la forma de contacto. Aunque se indicó no enviar mensajes, P2 efectivamente envió un correo desde
@@ -103,19 +102,20 @@ mensaje.
 
 | Participante anónimo | Tarea / resultado observado | Comentario u observación | Cambio aplicado |
 |---|---|---|---|
-| P1 | Encontró fácilmente qué estudia Eduardo. Comentó que recorrió el sitio. | No le gustaron mucho los tonos de color y percibió que la foto resalta demasiado frente al resto. | Pendiente de contrastar con más observaciones; todavía no se cambió el diseño. |
+| P1 | Encontró fácilmente qué estudia Eduardo. Comentó que recorrió el sitio. | No le gustaron mucho los tonos de color y percibió que la foto resalta demasiado frente al resto. | Se contrasta el protagonismo visual del retrato con la observación de P3; cambio pendiente. |
 | P2 | Envió un correo desde el contacto del portfolio. No se especificaron las demás tareas completadas. | Dijo que no encontró dudas y que el sitio le pareció claro. Reportó que los espacios del correo recibido aparecían como signos `+`. | Se corrigió la codificación del enlace `mailto:` para representar espacios como `%20`; falta verificar el envío real después del despliegue. |
-| P3 | Prueba realizada; tareas y resultado pendientes de registrar. | Observaciones pendientes de recibir. | Pendiente. |
+| P3 | Recorrió los enlaces a todos los repositorios de proyectos. | Le parecieron muy buenos y fáciles de entender; dijo que la información es fácil de leer. Sugirió que la imagen se vería mejor en blanco y negro. | La sugerencia coincide con la observación de P1 sobre el protagonismo de la foto; cambio visual pendiente de decidir. |
 
 ### Lectura inicial
 
-Las observaciones de P1 y P2 sugieren que la información puede resultar clara, mientras que P1
-señaló una preferencia visual sobre los colores y el protagonismo del retrato. P2 reportó un
-problema funcional reproducible en el formato del mensaje; se corrigió la codificación de
-espacios y queda pendiente validar el envío en un cliente de correo. Las opiniones visuales son
-iniciales y no bastan para generalizar ni justifican por sí solas un cambio de diseño. Incorporar
-las observaciones de P3 antes de decidir si corresponde ajustar el balance visual. No se
-registraron tiempos ni se hicieron mediciones comparativas.
+Las tres personas dieron señales positivas sobre la claridad o legibilidad: P2 dijo que el sitio
+era claro y no le generó dudas; P3 pudo recorrer todos los enlaces a repositorios y consideró la
+información fácil de leer. P1 encontró fácilmente la formación. P1 y P3 coincidieron en comentar
+la presencia visual de la foto; P3 propuso probarla en blanco y negro. Es una sugerencia de dos
+personas, no una preferencia generalizable, y el cambio todavía no se aplicó. P2 reportó un
+problema funcional en el formato del mensaje; se corrigió la codificación de espacios y queda
+pendiente validar el envío en un cliente de correo. No se registraron tiempos ni se hicieron
+mediciones comparativas.
 
 ## 7. Implementación, despliegue y medición
 
