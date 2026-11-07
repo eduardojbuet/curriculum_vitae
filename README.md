@@ -10,6 +10,7 @@ de la **Licenciatura en Sistemas de Información** de la **Universidad Autónoma
 - GitHub: <https://github.com/eduardojbuet/>
 - LinkedIn: <https://www.linkedin.com/in/eduardo-buet-22a31683/>
 - Email: <mailto:bueteduardoj@gmail.com>
+- WhatsApp: <https://wa.me/5493442667562>
 
 ## Proyectos
 
@@ -77,7 +78,7 @@ y probarse.
 | Diseño responsive, HTML semántico y metadatos | Implementado; requiere comprobación final en navegador |
 | Figma con research, wireframes, sistema y prototipo navegable | Archivo creado y compartido con tableros de research, wireframes desktop/mobile, sistema visual y mapa de interacciones; falta configurar y probar las conexiones interactivas |
 | Benchmark de tres portfolios | Revisión exploratoria documentada en `proceso-uxui.md`; falta revisión entre pares |
-| Test con tres personas, hallazgos y cambios | Tres pruebas exploratorias documentadas; corregido el formato del mensaje y aplicado el cambio sugerido al retrato; revisar resultado y decidir si se publica un contacto de WhatsApp |
+| Test con tres personas, hallazgos y cambios | Tres pruebas exploratorias documentadas; corregido el formato del mensaje, aplicado el retrato en blanco y negro y agregado WhatsApp como opción junto al email |
 | Auditoría Lighthouse en mobile y captura del resultado | Pendiente de ejecutar tras publicar |
 | README, fuentes, stack y pasos de deploy | Documentado aquí |
 | URL pública, repositorio y 10 commits incrementales | Repositorio creado y Pages configurado; verificar el despliegue y continuar el historial con cambios reales |

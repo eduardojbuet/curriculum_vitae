@@ -104,7 +104,7 @@ mensaje.
 |---|---|---|---|
 | P1 | Encontró fácilmente qué estudia Eduardo. Comentó que recorrió el sitio. | No le gustaron mucho los tonos de color y percibió que la foto resalta demasiado frente al resto. | El retrato se pasó a blanco y negro para probar una presencia visual más integrada. |
 | P2 | Envió un correo desde el contacto del portfolio. No se especificaron las demás tareas completadas. | Dijo que no encontró dudas y que el sitio le pareció claro. Reportó que los espacios del correo recibido aparecían como signos `+`. | Se corrigió la codificación del enlace `mailto:` para representar espacios como `%20`; falta verificar el envío real después del despliegue. |
-| P3 | Recorrió los enlaces a todos los repositorios de proyectos. | Le parecieron muy buenos y fáciles de entender; dijo que la información es fácil de leer. Sugirió que la imagen se vería mejor en blanco y negro y que el contacto fuera por WhatsApp en vez de email. | El retrato se pasó a blanco y negro para probar una presencia visual más integrada. La propuesta de WhatsApp queda pendiente de decidir; requiere autorización para publicar un número. |
+| P3 | Recorrió los enlaces a todos los repositorios de proyectos. | Le parecieron muy buenos y fáciles de entender; dijo que la información es fácil de leer. Sugirió que la imagen se vería mejor en blanco y negro y que el contacto fuera por WhatsApp en vez de email. | El retrato se pasó a blanco y negro y se agregó un acceso directo a WhatsApp, manteniendo el email como alternativa. |
 
 ### Lectura inicial
 
@@ -115,9 +115,9 @@ la presencia visual de la foto; P3 propuso probarla en blanco y negro. Como iter
 el retrato se pasó a escala de grises en ambas apariciones del sitio; hay que verificar el
 resultado visual publicado antes de considerar validada la solución. P2 reportó un problema
 funcional en el formato del mensaje; se corrigió la codificación de espacios y queda pendiente
-validar el envío en un cliente de correo. P3 sugirió reemplazar el email por WhatsApp; no se
-cambió el canal porque publicar WhatsApp requiere decidir si se comparte un número personal o
-profesional. No se registraron tiempos ni se hicieron mediciones comparativas.
+validar el envío en un cliente de correo. P3 sugirió reemplazar el email por WhatsApp; se agregó
+un enlace directo a WhatsApp y se conservó el formulario de email como alternativa. No se
+registraron tiempos ni se hicieron mediciones comparativas.
 
 ## 7. Implementación, despliegue y medición
 

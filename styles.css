@@ -1275,6 +1275,10 @@ p {
   color: #e0e6e1;
 }
 
+.contact-whatsapp {
+  margin-bottom: 20px;
+}
+
 .contact-form {
   max-width: 760px;
   padding: 20px;
