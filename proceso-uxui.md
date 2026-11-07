@@ -91,28 +91,29 @@ interactivo ya validado.
 
 ## 6. Validación de usabilidad
 
-Se hicieron dos pruebas exploratorias del sitio publicado el **7 de noviembre de 2026**. Las
+Se hicieron tres pruebas exploratorias del sitio publicado el **7 de noviembre de 2026**. Las
 notas disponibles no especifican dispositivo, duración ni el recorrido completo de cada persona;
-por eso se registran solo las observaciones compartidas y no se infieren tareas completadas.
-Falta una tercera persona para alcanzar el mínimo de la consigna.
+por eso se registran solo las observaciones compartidas y no se infieren tareas completadas. Las
+observaciones de P3 todavía están pendientes de incorporar.
 
 Las tareas propuestas fueron encontrar la carrera y la institución, revisar un proyecto y ubicar
-la forma de contacto. Se pidió no enviar ningún mensaje; la nota de P2 no permite confirmar si
-efectivamente lo envió, así que debe aclararse antes de registrar esa tarea como completada.
+la forma de contacto. Aunque se indicó no enviar mensajes, P2 efectivamente envió un correo desde
+el contacto del portfolio. No se registra ni publica la dirección de correo ni el contenido del
+mensaje.
 
 | Participante anónimo | Tarea / resultado observado | Comentario u observación | Cambio aplicado |
 |---|---|---|---|
 | P1 | Encontró fácilmente qué estudia Eduardo. Comentó que recorrió el sitio. | No le gustaron mucho los tonos de color y percibió que la foto resalta demasiado frente al resto. | Pendiente de contrastar con más observaciones; todavía no se cambió el diseño. |
-| P2 | No se especificaron las tareas completadas. | Dijo que no encontró dudas y que el sitio le pareció claro. La nota recibida dice “mandé mail”; falta confirmar si efectivamente envió un correo. | Pendiente de aclaración; no se registra el envío como resultado confirmado. |
-| P3 | Pendiente de realizar. | Pendiente. | Pendiente. |
+| P2 | Envió un correo desde el contacto del portfolio. No se especificaron las demás tareas completadas. | Dijo que no encontró dudas y que el sitio le pareció claro. | No se cambió el diseño; el envío demuestra que llegó a la acción de contacto. |
+| P3 | Prueba realizada; tareas y resultado pendientes de registrar. | Observaciones pendientes de recibir. | Pendiente. |
 
 ### Lectura inicial
 
 Las observaciones de P1 y P2 sugieren que la información puede resultar clara, mientras que P1
-señaló una preferencia visual sobre los colores y el protagonismo del retrato. Son opiniones de
-dos personas y no bastan para generalizar ni justifican por sí solas un cambio visual. Completar
-la tercera prueba, aclarar el resultado de contacto de P2 y luego decidir si corresponde ajustar
-el balance visual. No se registraron tiempos ni se hicieron mediciones comparativas.
+señaló una preferencia visual sobre los colores y el protagonismo del retrato. Son opiniones
+iniciales y no bastan para generalizar ni justifican por sí solas un cambio visual. Incorporar las
+observaciones de P3 antes de decidir si corresponde ajustar el balance visual. No se registraron
+tiempos ni se hicieron mediciones comparativas.
 
 ## 7. Implementación, despliegue y medición
 
