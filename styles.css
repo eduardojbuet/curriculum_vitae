@@ -310,7 +310,7 @@ p {
 }
 
 .eyebrow-divider {
-  color: #858f87;
+  color: var(--muted);
 }
 
 .hero h1 {
@@ -1335,7 +1335,12 @@ p {
 
 .footer-social-links a {
   min-height: 36px;
+  color: var(--green-dark);
   font-size: 10px;
+}
+
+.footer-social-links span {
+  color: var(--green);
 }
 
 .detail-page .detail-hero {

@@ -2,9 +2,11 @@
 
 **Autor:** Eduardo Javier Buet  
 **Carrera:** Licenciatura en Sistemas de Información · UADER · Facultad de Ciencia y Tecnología  
-**Estado:** borrador de proceso para revisión académica
+**Estado:** proceso documentado; algunas validaciones y objetivos siguen pendientes
 
-Este registro acompaña el sitio y puede servir como base para una presentación de hasta 10 slides.
+Este registro acompaña el sitio y complementa la presentación de 8 diapositivas en
+[`entrega/presentacion.pdf`](./entrega/presentacion.pdf), cuya fuente editable está en
+[`entrega/presentacion.html`](./entrega/presentacion.html).
 Distingue las decisiones implementadas de la investigación y validación que todavía deben
 realizarse. Incluye los resultados observados en tres pruebas exploratorias, sin datos personales
 ni resultados inventados.
@@ -86,9 +88,15 @@ contenido y la preferencia de movimiento reducido se resuelven en CSS/HTML/JavaS
 **Archivo Figma:** [Portfolio académico — Eduardo Javier Buet](https://www.figma.com/design/E6YgaCBWue3oZg6qEAvu9s/Portfolio-acad%C3%A9mico-%E2%80%94-Eduardo-Javier-Buet).
 Contiene páginas para research, wireframes desktop/mobile, sistema visual y mapa del flujo; los
 SVG de origen están en `figma/`. El enlace de visualización se configuró para cualquier persona
-con el enlace. El mapa describe las interacciones propuestas, pero las conexiones entre frames
-todavía deben implementarse y probarse en modo Present; no se presenta como un prototipo
-interactivo ya validado.
+con el enlace. En `02 · Wireframes desktop` se preservó `portfolio-desktop` y se creó la copia
+`portfolio-prototype`, de 1440 × 1840 px, con el flujo de inicio `Recorrido portfolio desktop`.
+Los hotspots “Explorar proyectos” y “Contactarme” tienen configuradas acciones `Abrir enlace` a
+`https://eduardojbuet.github.io/curriculum_vitae/#projects` y
+`https://eduardojbuet.github.io/curriculum_vitae/#contact`, respectivamente, en una pestaña nueva.
+La acción de desplazamiento interno no se pudo validar con el frame de altura completa; por eso se
+usaron enlaces al sitio publicado. En el modo Present disponible, un clic de prueba no abrió el
+sitio. Las acciones aparecen configuradas en el editor, pero no se consideran verificadas hasta que
+se compruebe el recorrido con clics en Present.
 
 ## 6. Validación de usabilidad
 
@@ -124,19 +132,28 @@ registraron tiempos ni se hicieron mediciones comparativas.
 ## 7. Implementación, despliegue y medición
 
 La solución usa HTML/CSS y JavaScript vanilla y está publicada en GitHub Pages con el workflow del
-repositorio. En el navegador se comprobó el **7 de noviembre de 2026** que no hay desbordamiento
-horizontal a 375, 768 y 1280 px.
+repositorio. El **7 de noviembre de 2026** se comprobó que no hay desbordamiento horizontal en
+viewport de 375, 768 y 1280 px, no hay imágenes rotas, y el menú mobile se abre con Enter; Escape
+lo cierra y devuelve el foco al botón. También se comprobó el destino de las 20 anclas internas y
+se ejecutó una pasada automatizada de contraste del texto visible en el estado normal, sin pares
+por debajo de los umbrales AA estándar. Se corrigió localmente el color de los enlaces sociales
+del pie, que antes heredaban texto blanco sobre fondo claro; este ajuste todavía debe publicarse.
+El formulario requiere nombre, correo y mensaje; los campos vacíos no pasan la validación nativa
+del navegador. Esta revisión no envió el correo ni verifica la apertura de una aplicación de email.
 
-- recorrer con teclado el menú, enlaces y formulario;
+- revisar manualmente el resto de los enlaces externos y comprobar la apertura del cliente de correo;
 - Lighthouse Mobile medido en Chrome con emulación iPhone 16 (393 × 852) el **7 de noviembre de
   2026**. Puntajes de la captura compartida: Performance **89**, Accessibility **96**, Best
   Practices **100** y SEO **100**. Tres categorías alcanzan la meta de 90; Performance queda un
   punto por debajo. La captura está en la conversación de entrega; falta revisar las
-  oportunidades detalladas de rendimiento y repetir la medición después de cualquier ajuste;
-- terminar y probar las conexiones del prototipo Figma en modo Present. El editor abrió, pero
-  informó un problema de conexión que afecta el guardado; no se hicieron cambios al prototipo
-  para evitar perderlos;
-- el historial público ya supera los 10 commits incrementales mínimos y descriptivos.
+  oportunidades detalladas de rendimiento y repetir la medición después de publicar la corrección
+  local del pie;
+- validar en modo Present que “Explorar proyectos” abra `#projects` y “Contactarme” abra `#contact`.
+  Las dos acciones ya están configuradas en `portfolio-prototype`, pero un clic de prueba no abrió
+  el sitio; no se da por probado el recorrido;
+- el historial público ya supera los 10 commits incrementales mínimos y descriptivos;
+- la presentación del proceso se preparó en 8 diapositivas: `entrega/presentacion.pdf` (fuente:
+  `entrega/presentacion.html`).
 
 El objetivo de la rúbrica es al menos 90 en Performance, Accessibility, Best Practices y SEO.
 La medición disponible alcanza el objetivo en tres categorías; Performance obtuvo 89.

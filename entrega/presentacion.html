@@ -1,0 +1,782 @@
+<!doctype html>
+<html lang="es-AR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio académico — Presentación del proceso UX/UI</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --paper: #f5f4ef;
+        --soft: #eeede6;
+        --surface: #fffefa;
+        --ink: #1d2622;
+        --muted: #56625b;
+        --green: #526f5b;
+        --green-dark: #354e3d;
+        --green-soft: #dce8da;
+        --line: #d7dcd4;
+        --gold: #8d6a2f;
+        font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: #d9dbd5;
+      }
+
+      a {
+        color: var(--green-dark);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+
+      .slide {
+        position: relative;
+        display: flex;
+        width: 1280px;
+        height: 720px;
+        flex-direction: column;
+        overflow: hidden;
+        margin: 24px auto;
+        padding: 54px 72px 56px;
+        background: var(--paper);
+        page-break-after: always;
+        break-after: page;
+      }
+
+      .slide:last-child {
+        page-break-after: auto;
+        break-after: auto;
+      }
+
+      .slide.dark {
+        color: var(--paper);
+        background: var(--ink);
+      }
+
+      .slide-head,
+      .slide-foot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .slide-head {
+        margin-bottom: 30px;
+      }
+
+      .eyebrow,
+      .slide-number,
+      .kicker,
+      .label {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+      }
+
+      .eyebrow,
+      .kicker {
+        color: var(--green);
+      }
+
+      .dark .eyebrow,
+      .dark .kicker {
+        color: #b8d3b3;
+      }
+
+      .slide-number,
+      .slide-foot {
+        color: var(--muted);
+      }
+
+      .dark .slide-number,
+      .dark .slide-foot {
+        color: #d4ddd5;
+      }
+
+      .slide-body {
+        flex: 1;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1,
+      h2 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-weight: 400;
+      }
+
+      h1 {
+        max-width: 760px;
+        margin-bottom: 18px;
+        font-size: 76px;
+        line-height: 0.98;
+        letter-spacing: -0.055em;
+      }
+
+      h1 span,
+      h2 span {
+        color: var(--green);
+      }
+
+      .dark h1 span {
+        color: #b8d3b3;
+      }
+
+      h2 {
+        margin-bottom: 22px;
+        font-size: 48px;
+        line-height: 1.04;
+        letter-spacing: -0.04em;
+      }
+
+      h3 {
+        margin-bottom: 9px;
+        font-size: 19px;
+        line-height: 1.2;
+      }
+
+      p {
+        color: var(--muted);
+        font-size: 17px;
+        line-height: 1.52;
+      }
+
+      .dark p {
+        color: #d4ddd5;
+      }
+
+      .slide-foot {
+        padding-top: 16px;
+        border-top: 1px solid var(--line);
+        font-size: 12px;
+      }
+
+      .dark .slide-foot {
+        border-color: #46504a;
+      }
+
+      .cover {
+        justify-content: space-between;
+        padding-top: 62px;
+      }
+
+      .cover .slide-body {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        align-items: center;
+        gap: 48px;
+      }
+
+      .cover h1 {
+        font-size: 84px;
+      }
+
+      .cover .intro {
+        max-width: 610px;
+        margin-bottom: 28px;
+        font-size: 21px;
+      }
+
+      .meta-line {
+        color: #d4ddd5;
+        font-size: 14px;
+      }
+
+      .cover-card {
+        min-height: 318px;
+        padding: 28px;
+        border: 1px solid #46504a;
+        background: linear-gradient(150deg, #26322b 0%, #1d2622 70%);
+      }
+
+      .cover-card .mini-brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 48px;
+        font-weight: 700;
+      }
+
+      .brand-mark {
+        display: grid;
+        width: 34px;
+        height: 34px;
+        place-items: center;
+        border-radius: 50%;
+        color: var(--ink);
+        background: #dce8da;
+        font-family: Georgia, "Times New Roman", serif;
+      }
+
+      .cover-card h3 {
+        margin-bottom: 10px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 30px;
+        font-weight: 400;
+      }
+
+      .cover-card .rule {
+        width: 64px;
+        height: 3px;
+        margin: 20px 0;
+        background: #b8d3b3;
+      }
+
+      .cover-card .tiny-links {
+        display: flex;
+        gap: 20px;
+        color: #d4ddd5;
+        font-size: 12px;
+      }
+
+      .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+
+      .grid-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+      }
+
+      .card {
+        padding: 22px 24px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+      }
+
+      .card p {
+        margin-bottom: 0;
+        font-size: 15px;
+      }
+
+      .card .label {
+        display: block;
+        margin-bottom: 12px;
+        color: var(--green);
+        font-size: 10px;
+      }
+
+      .callout {
+        padding: 18px 22px;
+        border-left: 4px solid var(--green);
+        background: var(--green-soft);
+        color: var(--ink);
+        font-size: 17px;
+        line-height: 1.45;
+      }
+
+      .callout strong {
+        color: var(--green-dark);
+      }
+
+      .columns {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 28px;
+      }
+
+      .route {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4px;
+        margin: 14px 0 24px;
+      }
+
+      .route-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .route span {
+        padding: 9px 12px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+        color: var(--green-dark);
+        font-size: 13px;
+        font-weight: 600;
+      }
+
+      .route b {
+        align-self: center;
+        color: var(--green);
+      }
+
+      .swatches {
+        display: flex;
+        gap: 10px;
+        margin: 15px 0 20px;
+      }
+
+      .swatch {
+        width: 72px;
+        height: 54px;
+        border: 1px solid rgb(29 38 34 / 15%);
+      }
+
+      .decision-list {
+        display: grid;
+        gap: 12px;
+        padding: 0;
+        list-style: none;
+      }
+
+      .decision-list li {
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        gap: 10px;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.4;
+      }
+
+      .decision-list b {
+        color: var(--green);
+      }
+
+      .project-card {
+        display: flex;
+        min-height: 250px;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 23px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+      }
+
+      .project-card:nth-child(2) {
+        background: var(--soft);
+      }
+
+      .project-card:nth-child(3) {
+        color: var(--paper);
+        background: var(--green-dark);
+      }
+
+      .project-card:nth-child(3) p,
+      .project-card:nth-child(3) .label {
+        color: #e1e6e2;
+      }
+
+      .project-card p {
+        margin-bottom: 0;
+        font-size: 15px;
+      }
+
+      .project-card .label {
+        color: var(--green);
+      }
+
+      .project-card .scope {
+        padding-top: 14px;
+        border-top: 1px solid var(--line);
+        font-size: 12px;
+      }
+
+      .project-card:nth-child(3) .scope {
+        border-color: #718276;
+      }
+
+      .quote {
+        min-height: 165px;
+        padding: 20px;
+        border-top: 3px solid var(--green);
+        background: var(--surface);
+      }
+
+      .quote blockquote {
+        margin: 10px 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 21px;
+        line-height: 1.28;
+      }
+
+      .quote .observation {
+        margin: 10px 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 21px;
+        line-height: 1.28;
+      }
+
+      .quote p {
+        margin: 0;
+        font-size: 13px;
+      }
+
+      .result-strip {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin: 18px 0;
+      }
+
+      .result {
+        padding: 15px 17px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+      }
+
+      .result strong {
+        display: block;
+        margin-bottom: 2px;
+        color: var(--green-dark);
+        font-size: 29px;
+        line-height: 1.1;
+      }
+
+      .result span {
+        color: var(--muted);
+        font-size: 11px;
+      }
+
+      .status-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+
+      .status-item {
+        padding: 15px 17px;
+        border: 1px solid var(--line);
+        background: var(--surface);
+      }
+
+      .status-item strong {
+        display: block;
+        margin-bottom: 4px;
+        color: var(--green-dark);
+        font-size: 14px;
+      }
+
+      .status-item span {
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.4;
+      }
+
+      .delivery-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+      }
+
+      .link-list {
+        display: grid;
+        gap: 13px;
+        padding: 0;
+        list-style: none;
+      }
+
+      .link-list a {
+        color: #dce8da;
+        font-size: 16px;
+      }
+
+      .link-list span {
+        display: block;
+        margin-top: 3px;
+        color: #b9c3ba;
+        font-size: 12px;
+      }
+
+      .pending-box {
+        padding: 24px;
+        border: 1px solid #46504a;
+        background: #26322b;
+      }
+
+      .pending-box h3 {
+        color: #dce8da;
+      }
+
+      .pending-box ul {
+        padding-left: 20px;
+        color: #d4ddd5;
+        font-size: 14px;
+        line-height: 1.55;
+      }
+
+      .small-note {
+        margin-top: 16px;
+        font-size: 12px;
+      }
+
+      @media print {
+        body {
+          background: transparent;
+        }
+
+        .slide {
+          margin: 0;
+          print-color-adjust: exact;
+          -webkit-print-color-adjust: exact;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="slide dark cover">
+        <div class="slide-head">
+          <span class="eyebrow">Proceso UX/UI · 2026</span>
+          <span class="slide-number">Portfolio académico</span>
+        </div>
+        <div class="slide-body">
+          <div>
+            <p class="kicker">Diseño · contenido · validación</p>
+            <h1>Eduardo Javier <span>Buet</span></h1>
+            <p class="intro">
+              Un portfolio one-page para presentar formación, habilidades y proyectos académicos
+              con claridad, alcance honesto y contacto directo.
+            </p>
+            <p class="meta-line">
+              Licenciatura en Sistemas de Información · UADER · Facultad de Ciencia y Tecnología
+            </p>
+          </div>
+          <div class="cover-card" aria-label="Vista conceptual del portfolio">
+            <div class="mini-brand"><span class="brand-mark">EB</span> Eduardo Buet.</div>
+            <p class="kicker">Disponible para prácticas</p>
+            <h3>Sistemas con<br />perspectiva humana.</h3>
+            <div class="rule"></div>
+            <div class="tiny-links"><span>Perfil</span><span>Proyectos</span><span>Contacto</span></div>
+          </div>
+        </div>
+        <div class="slide-foot">
+          <span>Presentación académica</span>
+          <span>01 / 08</span>
+        </div>
+      </article>
+
+      <article class="slide">
+        <div class="slide-head"><span class="eyebrow">01 · Objetivo</span><span class="slide-number">02 / 08</span></div>
+        <div class="slide-body">
+          <h2>Que el perfil se entienda <span>rápido.</span></h2>
+          <p>La propuesta reúne información académica y evidencia de trabajo para docentes y personas reclutadoras.</p>
+          <div class="grid-3" style="margin-top: 22px">
+            <div class="card">
+              <span class="label">Necesidad 01</span>
+              <h3>Encontrar la formación</h3>
+              <p>Identificar carrera e institución sin recorrer textos extensos.</p>
+            </div>
+            <div class="card">
+              <span class="label">Necesidad 02</span>
+              <h3>Entender los proyectos</h3>
+              <p>Reconocer el alcance real, las tecnologías y el aprendizaje de cada trabajo.</p>
+            </div>
+            <div class="card">
+              <span class="label">Necesidad 03</span>
+              <h3>Continuar el contacto</h3>
+              <p>Abrir repositorios y encontrar canales de contacto desde una sola página.</p>
+            </div>
+          </div>
+          <div class="callout" style="margin-top: 20px">
+            <strong>Hipótesis de éxito:</strong> localizar formación, abrir un proyecto y encontrar
+            contacto en una revisión breve. Es un criterio propuesto, no un tiempo medido.
+          </div>
+        </div>
+        <div class="slide-foot"><span>Audiencia orientativa: docencia y reclutamiento junior</span><span>Portfolio académico</span></div>
+      </article>
+
+      <article class="slide">
+        <div class="slide-head"><span class="eyebrow">02 · Referencias</span><span class="slide-number">03 / 08</span></div>
+        <div class="slide-body">
+          <h2>Observar patrones, <span>no copiar.</span></h2>
+          <div class="columns">
+            <div>
+              <div class="card" style="margin-bottom: 14px">
+                <span class="label">Benchmark exploratorio</span>
+                <h3>Referencias revisadas</h3>
+                <p>Brittany Chiang · Jhey Tompkins · Adham Dannaway</p>
+                <p style="margin-top: 8px">También se consideró el portfolio de Ernesto Ledesma, indicado por el docente.</p>
+              </div>
+              <div class="callout">
+                La comparación fue exploratoria y documental; no fue una prueba con usuarios ni una
+                revisión entre pares.
+              </div>
+            </div>
+            <ul class="decision-list">
+              <li><b>01</b><span>Jerarquía inicial clara: identidad, especialidad y acciones principales.</span></li>
+              <li><b>02</b><span>Proyectos con contexto y enlaces para comprobar el trabajo.</span></li>
+              <li><b>03</b><span>Adaptar la presentación al perfil de estudiante; no trasladar métricas o experiencia senior.</span></li>
+              <li><b>04</b><span>Documentar los límites: OpenArt se presenta como exploración, no como caso terminado.</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="slide-foot"><span>Fuentes y decisiones completas en proceso-uxui.md</span><span>Portfolio académico</span></div>
+      </article>
+
+      <article class="slide">
+        <div class="slide-head"><span class="eyebrow">03 · Estructura y visual</span><span class="slide-number">04 / 08</span></div>
+        <div class="slide-body">
+          <h2>Una página, un <span>recorrido.</span></h2>
+          <div class="columns">
+            <div>
+              <p>La navegación concentra lo esencial y mantiene los proyectos a pocos pasos.</p>
+              <div class="route">
+                <div class="route-row">
+                  <span>Inicio</span><b>→</b><span>Resumen</span><b>→</b><span>Perfil</span>
+                  <b>→</b><span>Habilidades</span>
+                </div>
+                <div class="route-row">
+                  <span>Proyectos</span><b>→</b><span>Formación</span><b>→</b><span>Contacto</span>
+                </div>
+              </div>
+              <p class="small-note">Responsive · HTML semántico · navegación por anclas · foco visible</p>
+            </div>
+            <div class="card">
+              <span class="label">Sistema visual</span>
+              <h3>Editorial, sobrio y cercano</h3>
+              <div class="swatches" aria-label="Paleta de color">
+                <span class="swatch" style="background:#f5f4ef"></span>
+                <span class="swatch" style="background:#1d2622"></span>
+                <span class="swatch" style="background:#526f5b"></span>
+                <span class="swatch" style="background:#dce8da"></span>
+                <span class="swatch" style="background:#8d6a2f"></span>
+              </div>
+              <p>Neutros cálidos y acento verde; títulos editoriales y tipografía de sistema para la lectura.</p>
+              <p style="margin-top: 10px">La foto se retiró del hero y queda en “Sobre mí” con menor protagonismo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="slide-foot"><span>La implementación publicada es la referencia funcional</span><span>Portfolio académico</span></div>
+      </article>
+
+      <article class="slide">
+        <div class="slide-head"><span class="eyebrow">04 · Proyectos</span><span class="slide-number">05 / 08</span></div>
+        <div class="slide-body">
+          <h2>Mostrar el trabajo según su <span>alcance.</span></h2>
+          <div class="grid-3">
+            <div class="project-card">
+              <span class="label">Caso de estudio</span>
+              <div><h3>Cubrí Seguros</h3><p>Prototipo frontend multipágina de contratación simulada.</p></div>
+              <p class="scope">Flujo académico; no ofrece cobertura ni procesa pagos reales.</p>
+            </div>
+            <div class="project-card">
+              <span class="label">Producto y web</span>
+              <div><h3>Coffea</h3><p>PRD académico y landing page para una cafetería.</p></div>
+              <p class="scope">La ficha y los enlaces llevan a la landing y su repositorio.</p>
+            </div>
+            <div class="project-card">
+              <span class="label">Exploración inicial</span>
+              <div><h3>OpenArt NFTs</h3><p>Revisión inicial del brief y del alcance posible.</p></div>
+              <p class="scope">Se declara explícitamente que no hay prototipo final.</p>
+            </div>
+          </div>
+          <div class="callout" style="margin-top: 18px">
+            La selección también enlaza ejercicios de CSS como práctica complementaria.
+          </div>
+        </div>
+        <div class="slide-foot"><span>GitHub y materiales enlazados desde el portfolio</span><span>Portfolio académico</span></div>
+      </article>
+
+      <article class="slide">
+        <div class="slide-head"><span class="eyebrow">05 · Pruebas exploratorias</span><span class="slide-number">06 / 08</span></div>
+        <div class="slide-body">
+          <h2>Tres miradas; cambios <span>concretos.</span></h2>
+          <div class="grid-3">
+            <div class="quote">
+              <span class="label">P1</span>
+              <p class="observation">Encontró fácilmente qué estudia Eduardo.</p>
+              <p>La paleta y el protagonismo de la foto no convencieron.</p>
+            </div>
+            <div class="quote">
+              <span class="label">P2</span>
+              <p class="observation">No reportó dudas y le pareció claro.</p>
+              <p>Detectó espacios como “+” en el correo recibido.</p>
+            </div>
+            <div class="quote">
+              <span class="label">P3</span>
+              <p class="observation">Consideró que la información era fácil de leer.</p>
+              <p>Recorrió repositorios; sugirió foto en blanco y negro y WhatsApp.</p>
+            </div>
+          </div>
+          <div class="callout" style="margin-top: 18px">
+            <strong>Iteraciones:</strong> retrato en escala de grises y fuera del hero; WhatsApp como
+            acceso directo adicional; espacios del mensaje mailto codificados con %20.
+          </div>
+          <p class="small-note">Muestra exploratoria (n=3). No se registraron tiempos ni se midieron resultados comparativos.</p>
+        </div>
+        <div class="slide-foot"><span>Se muestran solo observaciones compartidas; participantes anónimos</span><span>Portfolio académico</span></div>
+      </article>
+
+      <article class="slide">
+        <div class="slide-head"><span class="eyebrow">06 · Implementación y evaluación</span><span class="slide-number">07 / 08</span></div>
+        <div class="slide-body">
+          <h2>Probar, registrar y <span>mejorar.</span></h2>
+          <div class="result-strip">
+            <div class="result"><strong>89</strong><span>Performance · Lighthouse mobile</span></div>
+            <div class="result"><strong>96</strong><span>Accessibility</span></div>
+            <div class="result"><strong>100</strong><span>Best Practices</span></div>
+            <div class="result"><strong>100</strong><span>SEO</span></div>
+          </div>
+          <div class="status-list">
+            <div class="status-item">
+              <strong>Responsive revisado</strong>
+              <span>Sin overflow horizontal en viewport 375, 768 y 1280 px en esta revisión.</span>
+            </div>
+            <div class="status-item">
+              <strong>Teclado y anclas</strong>
+              <span>Menú mobile abre con Enter; Escape devuelve el foco. Las 20 anclas internas tienen destino.</span>
+            </div>
+            <div class="status-item">
+              <strong>Contraste local</strong>
+              <span>La pasada automatizada de texto no encontró relaciones por debajo de los umbrales AA estándar.</span>
+            </div>
+            <div class="status-item">
+              <strong>Próximo ajuste</strong>
+              <span>Performance quedó 1 punto por debajo de la meta 90; repetir Lighthouse tras optimizar.</span>
+            </div>
+          </div>
+          <p class="small-note">Puntajes Lighthouse corresponden a la medición registrada el 7/11/2026; no se repitió en esta revisión.</p>
+        </div>
+        <div class="slide-foot"><span>Implementación: HTML · CSS · JavaScript</span><span>Portfolio académico</span></div>
+      </article>
+
+      <article class="slide dark">
+        <div class="slide-head"><span class="eyebrow">07 · Entrega</span><span class="slide-number">08 / 08</span></div>
+        <div class="slide-body">
+          <h2>Portfolio listo para <span>recorrer.</span></h2>
+          <div class="delivery-layout">
+            <div>
+              <p>El sitio one-page está publicado y el proceso documenta decisiones, pruebas y resultados.</p>
+              <ul class="link-list">
+                <li><a href="https://eduardojbuet.github.io/curriculum_vitae/">Portfolio publicado</a><span>GitHub Pages</span></li>
+                <li><a href="https://github.com/eduardojbuet/curriculum_vitae">Repositorio</a><span>Código y documentación</span></li>
+                <li><a href="https://www.figma.com/design/E6YgaCBWue3oZg6qEAvu9s/Portfolio-acad%C3%A9mico-%E2%80%94-Eduardo-Javier-Buet">Archivo Figma</a><span>Research, wireframes, sistema visual y prototipo</span></li>
+                <li><a href="https://www.figma.com/proto/E6YgaCBWue3oZg6qEAvu9s/Portfolio-acad%C3%A9mico-%E2%80%94-Eduardo-Javier-Buet?node-id=10-7&amp;starting-point-node-id=10-7">Presentación Figma</a><span>Flujo configurado; clics aún no validados</span></li>
+              </ul>
+            </div>
+            <div class="pending-box">
+              <h3>Transparencia sobre pendientes</h3>
+              <ul>
+                <li>Figma tiene dos acciones configuradas hacia el sitio; no se verificó que abran al hacer clic.</li>
+                <li>Performance registró 89; objetivo de referencia: 90.</li>
+                <li>El formulario valida campos requeridos; el mailto no se probó en una app de correo.</li>
+                <li>La mejora local de contraste del pie debe publicarse antes de presentar la versión web final.</li>
+              </ul>
+              <p class="small-note">Estos puntos se presentan como próximos pasos, no como resultados logrados.</p>
+            </div>
+          </div>
+        </div>
+        <div class="slide-foot"><span>Eduardo Javier Buet · UADER · 2026</span><span>Gracias</span></div>
+      </article>
+    </main>
+  </body>
+</html>

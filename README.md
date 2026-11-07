@@ -66,23 +66,27 @@ criterios de diseño y el plan de validación.
 
 Archivo de diseño creado en Figma: [Portfolio académico — Eduardo Javier Buet](https://www.figma.com/design/E6YgaCBWue3oZg6qEAvu9s/Portfolio-acad%C3%A9mico-%E2%80%94-Eduardo-Javier-Buet).
 Contiene páginas para research, wireframes desktop y mobile, sistema visual y mapa del flujo.
-El directorio [`figma/`](./figma/README.md) conserva los SVG de origen y explica su estructura.
-Las conexiones interactivas del prototipo y su recorrido en modo Present todavía deben completarse
-y probarse; la sesión de revisión solo tiene acceso de lectura al archivo de Figma.
+En `02 · Wireframes desktop` se conservó el frame original y se agregó la copia `portfolio-prototype`
+con un flujo de inicio. Sus botones “Explorar proyectos” y “Contactarme” tienen acciones
+configuradas para abrir, respectivamente, las secciones `#projects` y `#contact` del sitio publicado
+en una pestaña nueva. [Abrir la presentación en Figma](https://www.figma.com/proto/E6YgaCBWue3oZg6qEAvu9s/Portfolio-acad%C3%A9mico-%E2%80%94-Eduardo-Javier-Buet?node-id=10-7&starting-point-node-id=10-7).
+La navegación por esas acciones en modo Present todavía no quedó validada: el clic de prueba no
+abrió el sitio. El directorio [`figma/`](./figma/README.md) conserva los SVG de origen y detalla el
+estado y los enlaces.
 
 | Entregable de la consigna | Estado |
 |---|---|
 | Portfolio one-page con las nueve secciones y navegación por anclas | Implementado |
 | Tres proyectos con año, alcance, aprendizaje y enlaces | Implementado |
 | Caso de estudio propio en una página interna | Implementado para Cubrí Seguros |
-| Diseño responsive, HTML semántico y metadatos | Sin desbordamiento horizontal verificado en 375, 768 y 1280 px; completar revisión de teclado, contraste y accesibilidad |
-| Figma con research, wireframes, sistema y prototipo navegable | Archivo creado y compartido con tableros y mapa de interacciones; falta configurar y probar las conexiones en modo Present. Figma muestra un problema de conexión que afecta el guardado |
+| Diseño responsive, HTML semántico y metadatos | Sin desbordamiento horizontal en viewport 375, 768 y 1280 px; menú mobile probado con teclado, las 20 anclas internas comprobadas y una pasada automatizada local de contraste sin fallos. La corrección del pie está en el código local; falta publicarla y revisar enlaces externos |
+| Figma con research, wireframes, sistema y prototipo navegable | Frame original preservado y copia `portfolio-prototype` con flujo de inicio; dos acciones a secciones del sitio publicado están configuradas. Falta validar los clics en modo Present; las acciones no se presentan como probadas |
 | Benchmark de tres portfolios | Revisión exploratoria documentada en `proceso-uxui.md`; falta revisión entre pares |
 | Test con tres personas, hallazgos y cambios | Tres pruebas exploratorias documentadas; corregido el formato del mensaje, reducido el protagonismo del retrato y agregado WhatsApp como opción junto al email |
 | Auditoría Lighthouse en mobile y captura del resultado | Medida en emulación iPhone 16 (393 × 852): Performance 89, Accessibility 96, Best Practices 100, SEO 100. La captura fue compartida; Performance quedó un punto debajo de la meta |
 | README, fuentes, stack y pasos de deploy | Documentado aquí |
 | URL pública, repositorio y 10 commits incrementales | Publicado en GitHub Pages; el historial supera los 10 commits mínimos |
-| Presentación breve del proceso (máximo 10 slides) | El material base está en `proceso-uxui.md`; falta maquetarlo/exportarlo con resultados reales |
+| Presentación breve del proceso (máximo 10 slides) | Presentación de 8 diapositivas en [`entrega/presentacion.pdf`](./entrega/presentacion.pdf); fuente editable en [`entrega/presentacion.html`](./entrega/presentacion.html) |
 
 ## Fuentes y uso de IA
 
