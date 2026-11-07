@@ -102,9 +102,9 @@ mensaje.
 
 | Participante anónimo | Tarea / resultado observado | Comentario u observación | Cambio aplicado |
 |---|---|---|---|
-| P1 | Encontró fácilmente qué estudia Eduardo. Comentó que recorrió el sitio. | No le gustaron mucho los tonos de color y percibió que la foto resalta demasiado frente al resto. | El retrato se pasó a blanco y negro para probar una presencia visual más integrada. |
+| P1 | Encontró fácilmente qué estudia Eduardo. Comentó que recorrió el sitio. | No le gustaron mucho los tonos de color y percibió que la foto resalta demasiado frente al resto. | El retrato se pasó a blanco y negro y se retiró del hero para darle prioridad al perfil y los proyectos. |
 | P2 | Envió un correo desde el contacto del portfolio. No se especificaron las demás tareas completadas. | Dijo que no encontró dudas y que el sitio le pareció claro. Reportó que los espacios del correo recibido aparecían como signos `+`. | Se corrigió la codificación del enlace `mailto:` para representar espacios como `%20`; falta verificar el envío real después del despliegue. |
-| P3 | Recorrió los enlaces a todos los repositorios de proyectos. | Le parecieron muy buenos y fáciles de entender; dijo que la información es fácil de leer. Sugirió que la imagen se vería mejor en blanco y negro y que el contacto fuera por WhatsApp en vez de email. | El retrato se pasó a blanco y negro y se agregó un acceso directo a WhatsApp, manteniendo el email como alternativa. |
+| P3 | Recorrió los enlaces a todos los repositorios de proyectos. | Le parecieron muy buenos y fáciles de entender; dijo que la información es fácil de leer. Sugirió que la imagen se vería mejor en blanco y negro y que el contacto fuera por WhatsApp en vez de email. | El retrato se pasó a blanco y negro, se retiró del hero y se agregó un acceso directo a WhatsApp junto al email. |
 
 ### Lectura inicial
 
@@ -112,8 +112,9 @@ Las tres personas dieron señales positivas sobre la claridad o legibilidad: P2 
 era claro y no le generó dudas; P3 pudo recorrer todos los enlaces a repositorios y consideró la
 información fácil de leer. P1 encontró fácilmente la formación. P1 y P3 coincidieron en comentar
 la presencia visual de la foto; P3 propuso probarla en blanco y negro. Como iteración de diseño,
-el retrato se pasó a escala de grises en ambas apariciones del sitio; hay que verificar el
-resultado visual publicado antes de considerar validada la solución. P2 reportó un problema
+el retrato se pasó a escala de grises y se quitó del hero; permanece más abajo, en la sección
+“Sobre mí”, para que el perfil y los proyectos sean el foco inicial. Hay que verificar el resultado
+visual publicado antes de considerar validada la solución. P2 reportó un problema
 funcional en el formato del mensaje; se corrigió la codificación de espacios y queda pendiente
 validar el envío en un cliente de correo. P3 sugirió reemplazar el email por WhatsApp; se agregó
 un enlace directo a WhatsApp y se conservó el formulario de email como alternativa. No se
