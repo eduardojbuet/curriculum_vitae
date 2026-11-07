@@ -51,7 +51,7 @@ raíz cuando se publique en la rama `main`.
 
 1. Repositorio público: <https://github.com/eduardojbuet/curriculum_vitae>.
 2. Publicá la rama `main`; el workflow de GitHub Actions despliega el contenido de la raíz.
-3. En **Settings → Pages**, seleccioná **GitHub Actions** como fuente.
+3. En **Settings → Pages**, la fuente de publicación está configurada como **GitHub Actions**.
 4. Verificá <https://eduardojbuet.github.io/curriculum_vitae/> y sus enlaces.
 
 Los repositorios existentes no se modifican. El historial de este repositorio comienza con la
@@ -80,7 +80,7 @@ y probarse.
 | Test con tres personas, hallazgos y cambios | Pendiente: todavía no se realizaron pruebas |
 | Auditoría Lighthouse en mobile y captura del resultado | Pendiente de ejecutar tras publicar |
 | README, fuentes, stack y pasos de deploy | Documentado aquí |
-| URL pública, repositorio y 10 commits incrementales | Repositorio creado; verificar el despliegue y continuar el historial con cambios reales |
+| URL pública, repositorio y 10 commits incrementales | Repositorio creado y Pages configurado; verificar el despliegue y continuar el historial con cambios reales |
 | Presentación breve del proceso (máximo 10 slides) | El material base está en `proceso-uxui.md`; falta maquetarlo/exportarlo con resultados reales |
 
 ## Fuentes y uso de IA
