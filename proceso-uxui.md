@@ -104,16 +104,18 @@ mensaje.
 | Participante anónimo | Tarea / resultado observado | Comentario u observación | Cambio aplicado |
 |---|---|---|---|
 | P1 | Encontró fácilmente qué estudia Eduardo. Comentó que recorrió el sitio. | No le gustaron mucho los tonos de color y percibió que la foto resalta demasiado frente al resto. | Pendiente de contrastar con más observaciones; todavía no se cambió el diseño. |
-| P2 | Envió un correo desde el contacto del portfolio. No se especificaron las demás tareas completadas. | Dijo que no encontró dudas y que el sitio le pareció claro. | No se cambió el diseño; el envío demuestra que llegó a la acción de contacto. |
+| P2 | Envió un correo desde el contacto del portfolio. No se especificaron las demás tareas completadas. | Dijo que no encontró dudas y que el sitio le pareció claro. Reportó que los espacios del correo recibido aparecían como signos `+`. | Se corrigió la codificación del enlace `mailto:` para representar espacios como `%20`; falta verificar el envío real después del despliegue. |
 | P3 | Prueba realizada; tareas y resultado pendientes de registrar. | Observaciones pendientes de recibir. | Pendiente. |
 
 ### Lectura inicial
 
 Las observaciones de P1 y P2 sugieren que la información puede resultar clara, mientras que P1
-señaló una preferencia visual sobre los colores y el protagonismo del retrato. Son opiniones
-iniciales y no bastan para generalizar ni justifican por sí solas un cambio visual. Incorporar las
-observaciones de P3 antes de decidir si corresponde ajustar el balance visual. No se registraron
-tiempos ni se hicieron mediciones comparativas.
+señaló una preferencia visual sobre los colores y el protagonismo del retrato. P2 reportó un
+problema funcional reproducible en el formato del mensaje; se corrigió la codificación de
+espacios y queda pendiente validar el envío en un cliente de correo. Las opiniones visuales son
+iniciales y no bastan para generalizar ni justifican por sí solas un cambio de diseño. Incorporar
+las observaciones de P3 antes de decidir si corresponde ajustar el balance visual. No se
+registraron tiempos ni se hicieron mediciones comparativas.
 
 ## 7. Implementación, despliegue y medición
 

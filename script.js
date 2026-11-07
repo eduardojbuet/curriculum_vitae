@@ -49,20 +49,21 @@ if (contactForm && contactFormStatus) {
     }
 
     const formData = new FormData(contactForm);
-    const mailto = new URL("mailto:bueteduardoj@gmail.com");
-    mailto.searchParams.set("subject", `Mensaje desde el portfolio: ${formData.get("name")}`);
-    mailto.searchParams.set(
-      "body",
-      [
-        `Nombre: ${formData.get("name")}`,
-        `Correo: ${formData.get("email")}`,
-        "",
-        formData.get("message"),
-      ].join("\n"),
-    );
+    const subject = `Mensaje desde el portfolio: ${formData.get("name")}`;
+    const body = [
+      `Nombre: ${formData.get("name")}`,
+      `Correo: ${formData.get("email")}`,
+      "",
+      formData.get("message"),
+    ].join("\n");
+    const mailto = [
+      "mailto:bueteduardoj@gmail.com",
+      `?subject=${encodeURIComponent(subject)}`,
+      `&body=${encodeURIComponent(body)}`,
+    ].join("");
 
     contactFormStatus.textContent =
       "Se abrirá tu aplicación de correo con el mensaje preparado. El sitio no envía ni guarda tus datos.";
-    window.location.href = mailto.href;
+    window.location.href = mailto;
   });
 }
