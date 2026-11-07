@@ -77,7 +77,7 @@ y probarse.
 | Diseño responsive, HTML semántico y metadatos | Implementado; requiere comprobación final en navegador |
 | Figma con research, wireframes, sistema y prototipo navegable | Archivo creado y compartido con tableros de research, wireframes desktop/mobile, sistema visual y mapa de interacciones; falta configurar y probar las conexiones interactivas |
 | Benchmark de tres portfolios | Revisión exploratoria documentada en `proceso-uxui.md`; falta revisión entre pares |
-| Test con tres personas, hallazgos y cambios | Pendiente: todavía no se realizaron pruebas |
+| Test con tres personas, hallazgos y cambios | Dos pruebas exploratorias registradas; falta una tercera, aclarar un resultado de contacto y decidir cambios a partir de evidencia suficiente |
 | Auditoría Lighthouse en mobile y captura del resultado | Pendiente de ejecutar tras publicar |
 | README, fuentes, stack y pasos de deploy | Documentado aquí |
 | URL pública, repositorio y 10 commits incrementales | Repositorio creado y Pages configurado; verificar el despliegue y continuar el historial con cambios reales |

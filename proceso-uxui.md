@@ -91,22 +91,28 @@ interactivo ya validado.
 
 ## 6. Validación de usabilidad
 
-No se realizaron tests. Plan mínimo para completar antes de la entrega:
+Se hicieron dos pruebas exploratorias del sitio publicado el **7 de noviembre de 2026**. Las
+notas disponibles no especifican dispositivo, duración ni el recorrido completo de cada persona;
+por eso se registran solo las observaciones compartidas y no se infieren tareas completadas.
+Falta una tercera persona para alcanzar el mínimo de la consigna.
 
-1. Con el sitio en mobile, pedir que se encuentre el correo de contacto.
-2. Pedir que se abra el proyecto más reciente y se explique qué resultado tiene y qué no hace.
-3. Pedir que se encuentre la carrera y la institución.
+Las tareas propuestas fueron encontrar la carrera y la institución, revisar un proyecto y ubicar
+la forma de contacto. Se pidió no enviar ningún mensaje; la nota de P2 no permite confirmar si
+efectivamente lo envió, así que debe aclararse antes de registrar esa tarea como completada.
 
-Registrar por persona un identificador anónimo, tarea, éxito/fracaso, tiempo aproximado,
-dificultad observada y cambio aplicado. La consigna requiere al menos tres participantes; no
-publicar nombres ni información personal. Luego repetir las tareas y documentar los hallazgos y
-cambios reales.
-
-| Participante anónimo | Tarea | Resultado y observación | Cambio aplicado |
+| Participante anónimo | Tarea / resultado observado | Comentario u observación | Cambio aplicado |
 |---|---|---|---|
-| Pendiente | Pendiente | Pendiente | Pendiente |
-| Pendiente | Pendiente | Pendiente | Pendiente |
-| Pendiente | Pendiente | Pendiente | Pendiente |
+| P1 | Encontró fácilmente qué estudia Eduardo. Comentó que recorrió el sitio. | No le gustaron mucho los tonos de color y percibió que la foto resalta demasiado frente al resto. | Pendiente de contrastar con más observaciones; todavía no se cambió el diseño. |
+| P2 | No se especificaron las tareas completadas. | Dijo que no encontró dudas y que el sitio le pareció claro. La nota recibida dice “mandé mail”; falta confirmar si efectivamente envió un correo. | Pendiente de aclaración; no se registra el envío como resultado confirmado. |
+| P3 | Pendiente de realizar. | Pendiente. | Pendiente. |
+
+### Lectura inicial
+
+Las observaciones de P1 y P2 sugieren que la información puede resultar clara, mientras que P1
+señaló una preferencia visual sobre los colores y el protagonismo del retrato. Son opiniones de
+dos personas y no bastan para generalizar ni justifican por sí solas un cambio visual. Completar
+la tercera prueba, aclarar el resultado de contacto de P2 y luego decidir si corresponde ajustar
+el balance visual. No se registraron tiempos ni se hicieron mediciones comparativas.
 
 ## 7. Implementación, despliegue y medición
 
