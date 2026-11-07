@@ -28,7 +28,8 @@ estados.
    `1440 × 1840`, mobile `390 × 2400`; los tableros de research, sistema y flujo usan las
    dimensiones definidas en cada SVG.
 3. Si necesitás editar elementos, desagrupá el SVG importado y ajustá textos, colores y formas en
-   Figma. Reemplazá el área de retrato de los wireframes por la foto autorizada desde `../assets/`.
+   Figma. Sincronizá los wireframes con la iteración actual: el hero del sitio ya no incluye el
+   retrato; la foto en blanco y negro permanece únicamente en “Sobre mí”.
 4. En `04 · Prototipo`, creá o duplica los frames de inicio, proyectos, caso Cubrí, contacto y menú mobile.
    Seleccioná cada hotspot y conectalo con **Prototype → On click → Navigate to** según el mapa.
    Probá las rutas en **Present** y compartí el archivo con permiso de visualización.
@@ -44,9 +45,10 @@ estados.
 - Contacto → validación de campos y pantalla/estado explicativo de apertura de correo. El sitio usa
   `mailto:`; no muestra una confirmación falsa de envío.
 
-## Evidencia pendiente
+## Estado de validación y próximos pasos
 
 - El benchmark es exploratorio; completar la revisión entre pares si la consigna lo requiere.
-- No se realizaron pruebas con participantes. No agregar resultados hasta hacerlas.
+- Se realizaron tres pruebas exploratorias con participantes; los hallazgos y cambios están
+  registrados en `../proceso-uxui.md`.
 - Para considerar el prototipo completo, falta configurar las conexiones entre frames, probarlas
   en modo Present y confirmar el recorrido.

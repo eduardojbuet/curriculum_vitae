@@ -6,7 +6,7 @@ de la **Licenciatura en Sistemas de Información** de la **Universidad Autónoma
 
 ## Sitio y contacto
 
-- URL del portfolio: <https://eduardojbuet.github.io/curriculum_vitae/>. Verificarla después del primer despliegue.
+- URL publicada del portfolio: <https://eduardojbuet.github.io/curriculum_vitae/>.
 - GitHub: <https://github.com/eduardojbuet/>
 - LinkedIn: <https://www.linkedin.com/in/eduardo-buet-22a31683/>
 - Email: <mailto:bueteduardoj@gmail.com>
@@ -55,9 +55,8 @@ raíz cuando se publique en la rama `main`.
 3. En **Settings → Pages**, la fuente de publicación está configurada como **GitHub Actions**.
 4. Verificá <https://eduardojbuet.github.io/curriculum_vitae/> y sus enlaces.
 
-Los repositorios existentes no se modifican. El historial de este repositorio comienza con la
-publicación del sitio; los 10 commits incrementales que pide la consigna deben registrarse durante
-el proceso real de trabajo, sin inventar actividad pasada.
+Los repositorios existentes no se modifican. El historial de este repositorio comenzó con la
+publicación del sitio y ya contiene 10 commits incrementales con cambios reales del proceso.
 
 ## Proceso y estado de entrega
 
@@ -68,20 +67,20 @@ Archivo de diseño creado en Figma: [Portfolio académico — Eduardo Javier Bue
 Contiene páginas para research, wireframes desktop y mobile, sistema visual y mapa del flujo.
 El directorio [`figma/`](./figma/README.md) conserva los SVG de origen y explica su estructura.
 Las conexiones interactivas del prototipo y su recorrido en modo Present todavía deben completarse
-y probarse.
+y probarse; la sesión de revisión solo tiene acceso de lectura al archivo de Figma.
 
 | Entregable de la consigna | Estado |
 |---|---|
 | Portfolio one-page con las nueve secciones y navegación por anclas | Implementado |
 | Tres proyectos con año, alcance, aprendizaje y enlaces | Implementado |
 | Caso de estudio propio en una página interna | Implementado para Cubrí Seguros |
-| Diseño responsive, HTML semántico y metadatos | Implementado; requiere comprobación final en navegador |
-| Figma con research, wireframes, sistema y prototipo navegable | Archivo creado y compartido con tableros de research, wireframes desktop/mobile, sistema visual y mapa de interacciones; falta configurar y probar las conexiones interactivas |
+| Diseño responsive, HTML semántico y metadatos | Sin desbordamiento horizontal verificado en 375, 768 y 1280 px; completar revisión de teclado, contraste y accesibilidad |
+| Figma con research, wireframes, sistema y prototipo navegable | Archivo creado y compartido con tableros de research, wireframes desktop/mobile, sistema visual y mapa de interacciones; falta configurar y probar las conexiones interactivas en modo Present |
 | Benchmark de tres portfolios | Revisión exploratoria documentada en `proceso-uxui.md`; falta revisión entre pares |
 | Test con tres personas, hallazgos y cambios | Tres pruebas exploratorias documentadas; corregido el formato del mensaje, reducido el protagonismo del retrato y agregado WhatsApp como opción junto al email |
-| Auditoría Lighthouse en mobile y captura del resultado | Pendiente de ejecutar tras publicar |
+| Auditoría Lighthouse en mobile y captura del resultado | Pendiente; PageSpeed Insights no devolvió puntajes en el intento de auditoría |
 | README, fuentes, stack y pasos de deploy | Documentado aquí |
-| URL pública, repositorio y 10 commits incrementales | Repositorio creado y Pages configurado; verificar el despliegue y continuar el historial con cambios reales |
+| URL pública, repositorio y 10 commits incrementales | Publicado en GitHub Pages; 10 commits incrementales en el repositorio |
 | Presentación breve del proceso (máximo 10 slides) | El material base está en `proceso-uxui.md`; falta maquetarlo/exportarlo con resultados reales |
 
 ## Fuentes y uso de IA

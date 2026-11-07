@@ -6,7 +6,8 @@
 
 Este registro acompaña el sitio y puede servir como base para una presentación de hasta 10 slides.
 Distingue las decisiones implementadas de la investigación y validación que todavía deben
-realizarse. No contiene participantes, entrevistas, tests ni resultados inventados.
+realizarse. Incluye los resultados observados en tres pruebas exploratorias, sin datos personales
+ni resultados inventados.
 
 ## 1. Objetivo y audiencia
 
@@ -122,15 +123,17 @@ registraron tiempos ni se hicieron mediciones comparativas.
 
 ## 7. Implementación, despliegue y medición
 
-La solución usa HTML/CSS y JavaScript vanilla; la página puede publicarse desde GitHub Pages con
-el workflow del repositorio. Antes de entregar:
+La solución usa HTML/CSS y JavaScript vanilla y está publicada en GitHub Pages con el workflow del
+repositorio. En el navegador se comprobó el **7 de noviembre de 2026** que no hay desbordamiento
+horizontal a 375, 768 y 1280 px.
 
-- probar anchos de 375, 768 y 1280 px y confirmar que no haya scroll horizontal;
 - recorrer con teclado el menú, enlaces y formulario;
-- verificar contraste y nombres accesibles;
-- ejecutar Lighthouse en mobile, guardar la captura y revisar las cuatro categorías;
-- crear el repositorio público y realizar al menos 10 commits incrementales y descriptivos;
-- pegar la URL real de Figma, el sitio publicado y el repositorio en el README.
+- ejecutar Lighthouse en mobile, guardar la captura y revisar las cuatro categorías. El intento
+  con PageSpeed Insights no devolvió puntajes; el informe quedó cargando y la API respondió 429,
+  por lo que no se reportan métricas;
+- terminar y probar las conexiones del prototipo Figma en modo Present. Desde la sesión usada para
+  esta revisión, Figma abre el archivo como solo lectura y solicita iniciar sesión para editar;
+- el repositorio público tiene 10 commits incrementales y descriptivos.
 
 El objetivo de la rúbrica es al menos 90 en Performance, Accessibility, Best Practices y SEO.
 Todavía no se afirma haber medido ni alcanzado esos puntajes.
