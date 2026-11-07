@@ -128,12 +128,15 @@ repositorio. En el navegador se comprobó el **7 de noviembre de 2026** que no h
 horizontal a 375, 768 y 1280 px.
 
 - recorrer con teclado el menú, enlaces y formulario;
-- ejecutar Lighthouse en mobile, guardar la captura y revisar las cuatro categorías. El intento
-  con PageSpeed Insights no devolvió puntajes; el informe quedó cargando y la API respondió 429,
-  por lo que no se reportan métricas;
-- terminar y probar las conexiones del prototipo Figma en modo Present. Desde la sesión usada para
-  esta revisión, Figma abre el archivo como solo lectura y solicita iniciar sesión para editar;
-- el repositorio público tiene 10 commits incrementales y descriptivos.
+- Lighthouse Mobile medido en Chrome con emulación iPhone 16 (393 × 852) el **7 de noviembre de
+  2026**. Puntajes de la captura compartida: Performance **89**, Accessibility **96**, Best
+  Practices **100** y SEO **100**. Tres categorías alcanzan la meta de 90; Performance queda un
+  punto por debajo. La captura está en la conversación de entrega; falta revisar las
+  oportunidades detalladas de rendimiento y repetir la medición después de cualquier ajuste;
+- terminar y probar las conexiones del prototipo Figma en modo Present. El editor abrió, pero
+  informó un problema de conexión que afecta el guardado; no se hicieron cambios al prototipo
+  para evitar perderlos;
+- el historial público ya supera los 10 commits incrementales mínimos y descriptivos.
 
 El objetivo de la rúbrica es al menos 90 en Performance, Accessibility, Best Practices y SEO.
-Todavía no se afirma haber medido ni alcanzado esos puntajes.
+La medición disponible alcanza el objetivo en tres categorías; Performance obtuvo 89.

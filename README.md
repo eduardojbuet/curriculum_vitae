@@ -56,7 +56,8 @@ raíz cuando se publique en la rama `main`.
 4. Verificá <https://eduardojbuet.github.io/curriculum_vitae/> y sus enlaces.
 
 Los repositorios existentes no se modifican. El historial de este repositorio comenzó con la
-publicación del sitio y ya contiene 10 commits incrementales con cambios reales del proceso.
+publicación del sitio y ya supera los 10 commits incrementales mínimos, con cambios reales del
+proceso.
 
 ## Proceso y estado de entrega
 
@@ -75,12 +76,12 @@ y probarse; la sesión de revisión solo tiene acceso de lectura al archivo de F
 | Tres proyectos con año, alcance, aprendizaje y enlaces | Implementado |
 | Caso de estudio propio en una página interna | Implementado para Cubrí Seguros |
 | Diseño responsive, HTML semántico y metadatos | Sin desbordamiento horizontal verificado en 375, 768 y 1280 px; completar revisión de teclado, contraste y accesibilidad |
-| Figma con research, wireframes, sistema y prototipo navegable | Archivo creado y compartido con tableros de research, wireframes desktop/mobile, sistema visual y mapa de interacciones; falta configurar y probar las conexiones interactivas en modo Present |
+| Figma con research, wireframes, sistema y prototipo navegable | Archivo creado y compartido con tableros y mapa de interacciones; falta configurar y probar las conexiones en modo Present. Figma muestra un problema de conexión que afecta el guardado |
 | Benchmark de tres portfolios | Revisión exploratoria documentada en `proceso-uxui.md`; falta revisión entre pares |
 | Test con tres personas, hallazgos y cambios | Tres pruebas exploratorias documentadas; corregido el formato del mensaje, reducido el protagonismo del retrato y agregado WhatsApp como opción junto al email |
-| Auditoría Lighthouse en mobile y captura del resultado | Pendiente; PageSpeed Insights no devolvió puntajes en el intento de auditoría |
+| Auditoría Lighthouse en mobile y captura del resultado | Medida en emulación iPhone 16 (393 × 852): Performance 89, Accessibility 96, Best Practices 100, SEO 100. La captura fue compartida; Performance quedó un punto debajo de la meta |
 | README, fuentes, stack y pasos de deploy | Documentado aquí |
-| URL pública, repositorio y 10 commits incrementales | Publicado en GitHub Pages; 10 commits incrementales en el repositorio |
+| URL pública, repositorio y 10 commits incrementales | Publicado en GitHub Pages; el historial supera los 10 commits mínimos |
 | Presentación breve del proceso (máximo 10 slides) | El material base está en `proceso-uxui.md`; falta maquetarlo/exportarlo con resultados reales |
 
 ## Fuentes y uso de IA
@@ -96,5 +97,6 @@ y probarse; la sesión de revisión solo tiene acceso de lectura al archivo de F
 - Se usó asistencia de IA para redactar y revisar el código y la documentación; los datos personales,
   proyectos y estados se contrastaron con la información proporcionada por Eduardo. No se inventaron
   resultados de investigación, pruebas o métricas.
-- Las imágenes llevan dimensiones declaradas; la fotografía principal carga con prioridad alta y
-  la imagen de Coffea usa carga diferida. La auditoría de peso y Lighthouse queda pendiente.
+- Las imágenes llevan dimensiones declaradas; la fotografía de perfil carga con prioridad alta y
+  la imagen de Coffea usa carga diferida. Lighthouse Mobile midió 89 en Performance; falta revisar
+  las oportunidades detalladas para mejorar ese puntaje.

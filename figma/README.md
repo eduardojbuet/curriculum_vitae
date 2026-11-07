@@ -51,4 +51,5 @@ estados.
 - Se realizaron tres pruebas exploratorias con participantes; los hallazgos y cambios están
   registrados en `../proceso-uxui.md`.
 - Para considerar el prototipo completo, falta configurar las conexiones entre frames, probarlas
-  en modo Present y confirmar el recorrido.
+  en modo Present y confirmar el recorrido. En la última revisión, Figma informó un problema de
+  conexión que afecta el guardado; no se realizaron cambios que pudieran perderse.
