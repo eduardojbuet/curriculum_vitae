@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040">
+  <rect width="1440" height="1040" fill="#f5f4ef"/>
+  <text x="72" y="78" fill="#526f5b" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">PORTFOLIO ACADÉMICO · UADER · INVESTIGACIÓN</text>
+  <text x="72" y="138" fill="#1d2622" font-family="Georgia,serif" font-size="42">Research y decisiones de contenido</text>
+  <text x="72" y="174" fill="#56625b" font-family="Arial,sans-serif" font-size="15">Base exploratoria para orientar la arquitectura. Proto-persona e hipótesis no validadas con participantes.</text>
+  <rect x="72" y="204" width="1296" height="50" rx="3" fill="#dce8da"/>
+  <text x="94" y="235" fill="#354e3d" font-family="Arial,sans-serif" font-size="13" font-weight="700">ESTADO DE EVIDENCIA</text>
+  <text x="282" y="235" fill="#354e3d" font-family="Arial,sans-serif" font-size="13">Benchmark exploratorio documentado · entrevistas y pruebas con usuarios: pendientes, no se presentan resultados inventados.</text>
+
+  <rect x="72" y="282" width="392" height="320" rx="4" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="98" y="324" fill="#526f5b" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">01 · AUDIENCIA HIPOTÉTICA</text>
+  <text x="98" y="365" fill="#1d2622" font-family="Georgia,serif" font-size="23">Docente evaluador/a</text>
+  <text x="98" y="395" fill="#1d2622" font-family="Georgia,serif" font-size="23">o reclutador/a junior</text>
+  <text x="98" y="438" fill="#56625b" font-family="Arial,sans-serif" font-size="13">Necesita encontrar con rapidez:</text>
+  <circle cx="106" cy="469" r="3" fill="#526f5b"/><text x="120" y="474" fill="#56625b" font-family="Arial,sans-serif" font-size="13">Carrera e institución</text>
+  <circle cx="106" cy="498" r="3" fill="#526f5b"/><text x="120" y="503" fill="#56625b" font-family="Arial,sans-serif" font-size="13">Tecnologías trabajadas</text>
+  <circle cx="106" cy="527" r="3" fill="#526f5b"/><text x="120" y="532" fill="#56625b" font-family="Arial,sans-serif" font-size="13">Alcance y responsabilidad por proyecto</text>
+  <circle cx="106" cy="556" r="3" fill="#526f5b"/><text x="120" y="561" fill="#56625b" font-family="Arial,sans-serif" font-size="13">Canal de contacto</text>
+  <text x="98" y="586" fill="#8d6a2f" font-family="Arial,sans-serif" font-size="11" font-weight="700">PROTO-PERSONA · POR VALIDAR</text>
+
+  <rect x="484" y="282" width="424" height="320" rx="4" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="510" y="324" fill="#526f5b" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">02 · HIPÓTESIS Y TAREAS</text>
+  <text x="510" y="360" fill="#1d2622" font-family="Arial,sans-serif" font-size="14" font-weight="700">Hipótesis de diseño</text>
+  <text x="510" y="388" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Si el perfil y el alcance se explicitan al inicio,</text>
+  <text x="510" y="408" fill="#56625b" font-family="Arial,sans-serif" font-size="12">la persona podrá evaluar mejor los proyectos.</text>
+  <text x="510" y="450" fill="#1d2622" font-family="Arial,sans-serif" font-size="14" font-weight="700">Tareas para prueba futura</text>
+  <rect x="510" y="468" width="366" height="34" rx="2" fill="#f5f4ef"/>
+  <text x="524" y="490" fill="#56625b" font-family="Arial,sans-serif" font-size="12">01 · Encontrar carrera e institución</text>
+  <rect x="510" y="510" width="366" height="34" rx="2" fill="#f5f4ef"/>
+  <text x="524" y="532" fill="#56625b" font-family="Arial,sans-serif" font-size="12">02 · Comprender alcance de Cubrí Seguros</text>
+  <rect x="510" y="552" width="366" height="34" rx="2" fill="#f5f4ef"/>
+  <text x="524" y="574" fill="#56625b" font-family="Arial,sans-serif" font-size="12">03 · Encontrar contacto desde mobile</text>
+
+  <rect x="928" y="282" width="440" height="320" rx="4" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="954" y="324" fill="#526f5b" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">03 · CRITERIOS DE ÉXITO PROPUESTOS</text>
+  <text x="954" y="368" fill="#1d2622" font-family="Georgia,serif" font-size="22">Comprender antes</text>
+  <text x="954" y="395" fill="#1d2622" font-family="Georgia,serif" font-size="22">de recorrer todo el sitio.</text>
+  <text x="954" y="440" fill="#56625b" font-family="Arial,sans-serif" font-size="13">Durante las pruebas, observar si la persona:</text>
+  <circle cx="962" cy="473" r="3" fill="#526f5b"/><text x="976" y="478" fill="#56625b" font-family="Arial,sans-serif" font-size="13">Identifica la carrera y el perfil</text>
+  <circle cx="962" cy="505" r="3" fill="#526f5b"/><text x="976" y="510" fill="#56625b" font-family="Arial,sans-serif" font-size="13">Distingue prototipo de producto real</text>
+  <circle cx="962" cy="537" r="3" fill="#526f5b"/><text x="976" y="542" fill="#56625b" font-family="Arial,sans-serif" font-size="13">Llega al canal de contacto</text>
+  <text x="954" y="583" fill="#8d6a2f" font-family="Arial,sans-serif" font-size="11" font-weight="700">MEDIR: ÉXITO · DIFICULTAD · TIEMPO APROXIMADO</text>
+
+  <text x="72" y="658" fill="#354e3d" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">04 · BENCHMARK EXPLORATORIO · 7 NOV 2026</text>
+  <rect x="72" y="682" width="1296" height="54" fill="#28332d"/>
+  <text x="96" y="716" fill="#fffefa" font-family="Arial,sans-serif" font-size="12" font-weight="700">REFERENTE</text>
+  <text x="350" y="716" fill="#fffefa" font-family="Arial,sans-serif" font-size="12" font-weight="700">OBSERVACIÓN</text>
+  <text x="840" y="716" fill="#fffefa" font-family="Arial,sans-serif" font-size="12" font-weight="700">DECISIÓN PARA ESTE PORTFOLIO</text>
+  <rect x="72" y="736" width="1296" height="64" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="96" y="775" fill="#1d2622" font-family="Arial,sans-serif" font-size="13" font-weight="700">Brittany Chiang</text>
+  <text x="350" y="762" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Trayectoria y tecnologías fáciles de recorrer.</text>
+  <text x="350" y="781" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Experiencia senior no transferible.</text>
+  <text x="840" y="762" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Priorizar carrera, stack real y proyectos</text>
+  <text x="840" y="781" fill="#56625b" font-family="Arial,sans-serif" font-size="12">académicos sin inventar experiencia laboral.</text>
+  <rect x="72" y="800" width="1296" height="64" fill="#f5f4ef" stroke="#d7dcd4"/>
+  <text x="96" y="839" fill="#1d2622" font-family="Arial,sans-serif" font-size="13" font-weight="700">Jhey Tompkins</text>
+  <text x="350" y="826" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Experimentación visible y trabajos demostrables.</text>
+  <text x="350" y="845" fill="#56625b" font-family="Arial,sans-serif" font-size="12">El extracto inicial da poco contexto.</text>
+  <text x="840" y="826" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Agregar caso de estudio con desafío, proceso,</text>
+  <text x="840" y="845" fill="#56625b" font-family="Arial,sans-serif" font-size="12">solución y alcance real.</text>
+  <rect x="72" y="864" width="1296" height="64" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="96" y="903" fill="#1d2622" font-family="Arial,sans-serif" font-size="13" font-weight="700">Adham Dannaway</text>
+  <text x="350" y="890" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Comunica el cruce entre diseño y código.</text>
+  <text x="350" y="909" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Lo visual prima sobre el contexto escrito.</text>
+  <text x="840" y="890" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Combinar previews con descripción, tecnologías</text>
+  <text x="840" y="909" fill="#56625b" font-family="Arial,sans-serif" font-size="12">y enlaces a evidencia de cada trabajo.</text>
+  <text x="72" y="970" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Referencia docente adicional: Ernesto Ledesma · inspiración de jerarquía del hero, sin reutilizar layout, métricas, textos ni recursos.</text>
+  <text x="72" y="1000" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Siguiente paso metodológico: probar estas tareas con al menos 3 personas, registrar resultados anónimos y actualizar las decisiones.</text>
+</svg>

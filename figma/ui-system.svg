@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1120" viewBox="0 0 1440 1120">
+  <rect width="1440" height="1120" fill="#f5f4ef"/>
+  <text x="72" y="78" fill="#526f5b" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">PORTFOLIO ACADÉMICO · UADER · 2026</text>
+  <text x="72" y="138" fill="#1d2622" font-family="Georgia,serif" font-size="42">Sistema visual</text>
+  <text x="72" y="174" fill="#56625b" font-family="Arial,sans-serif" font-size="15">Tokens y componentes base del portfolio de Eduardo Javier Buet</text>
+  <path d="M72 206H1368" stroke="#d7dcd4"/>
+
+  <text x="72" y="250" fill="#354e3d" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">01 · COLOR</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="72" y="274" width="194" height="106" rx="4" fill="#f5f4ef" stroke="#d7dcd4"/>
+    <text x="88" y="342" fill="#1d2622" font-size="13" font-weight="700">Papel</text><text x="88" y="365" fill="#56625b" font-size="12">#F5F4EF · fondo</text>
+    <rect x="280" y="274" width="194" height="106" rx="4" fill="#fffefa" stroke="#d7dcd4"/>
+    <text x="296" y="342" fill="#1d2622" font-size="13" font-weight="700">Superficie</text><text x="296" y="365" fill="#56625b" font-size="12">#FFFEFA · tarjetas</text>
+    <rect x="488" y="274" width="194" height="106" rx="4" fill="#1d2622"/>
+    <text x="504" y="342" fill="#fffefa" font-size="13" font-weight="700">Tinta</text><text x="504" y="365" fill="#e0e6e1" font-size="12">#1D2622 · texto</text>
+    <rect x="696" y="274" width="194" height="106" rx="4" fill="#526f5b"/>
+    <text x="712" y="342" fill="#fffefa" font-size="13" font-weight="700">Verde</text><text x="712" y="365" fill="#fffefa" font-size="12">#526F5B · acento</text>
+    <rect x="904" y="274" width="194" height="106" rx="4" fill="#354e3d"/>
+    <text x="920" y="342" fill="#fffefa" font-size="13" font-weight="700">Verde oscuro</text><text x="920" y="365" fill="#fffefa" font-size="12">#354E3D · énfasis</text>
+    <rect x="1112" y="274" width="194" height="106" rx="4" fill="#dce8da"/>
+    <text x="1128" y="342" fill="#1d2622" font-size="13" font-weight="700">Verde suave</text><text x="1128" y="365" fill="#56625b" font-size="12">#DCE8DA · apoyo</text>
+  </g>
+
+  <text x="72" y="434" fill="#354e3d" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">02 · TIPOGRAFÍA Y JERARQUÍA</text>
+  <rect x="72" y="458" width="620" height="224" rx="4" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="98" y="510" fill="#526f5b" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">GEORGIA · TITULARES</text>
+  <text x="98" y="570" fill="#1d2622" font-family="Georgia,serif" font-size="38">Sistemas con perspectiva humana.</text>
+  <text x="98" y="617" fill="#354e3d" font-family="Georgia,serif" font-size="24">Título de sección · 24 px</text>
+  <text x="98" y="652" fill="#56625b" font-family="Arial,sans-serif" font-size="13">Segoe UI / Arial · texto e interfaz · 15 px / interlineado 1.65</text>
+  <rect x="716" y="458" width="652" height="224" rx="4" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="744" y="510" fill="#526f5b" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">ESCALA DE ESPACIADO · BASE 4 PX</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#56625b">
+    <text x="744" y="552">4 px</text><rect x="820" y="538" width="16" height="12" fill="#526f5b"/>
+    <text x="744" y="579">8 px</text><rect x="820" y="565" width="32" height="12" fill="#526f5b"/>
+    <text x="744" y="606">16 px</text><rect x="820" y="592" width="64" height="12" fill="#526f5b"/>
+    <text x="744" y="633">24 px</text><rect x="820" y="619" width="96" height="12" fill="#526f5b"/>
+    <text x="744" y="660">40 px</text><rect x="820" y="646" width="160" height="12" fill="#526f5b"/>
+  </g>
+  <text x="1030" y="553" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Radio: 2–4 px</text>
+  <text x="1030" y="580" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Bordes: #D7DCD4</text>
+  <text x="1030" y="607" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Contenedor máx.: 1120 px</text>
+  <text x="1030" y="634" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Foco visible: 3 px verde</text>
+  <text x="1030" y="661" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Diseño responsive · mobile-first</text>
+
+  <text x="72" y="738" fill="#354e3d" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">03 · COMPONENTES</text>
+  <rect x="72" y="762" width="620" height="250" rx="4" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="98" y="804" fill="#56625b" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">ACCIONES</text>
+  <rect x="98" y="832" width="210" height="48" rx="2" fill="#1d2622"/>
+  <text x="120" y="862" fill="#fffefa" font-family="Arial,sans-serif" font-size="13" font-weight="700">Explorar proyectos ↓</text>
+  <rect x="326" y="832" width="188" height="48" rx="2" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="351" y="862" fill="#1d2622" font-family="Arial,sans-serif" font-size="13" font-weight="700">Contacto ↗</text>
+  <rect x="98" y="910" width="416" height="60" rx="2" fill="#28332d"/>
+  <text x="120" y="936" fill="#c6d9c2" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">ESTADO</text>
+  <text x="120" y="957" fill="#fffefa" font-family="Arial,sans-serif" font-size="13">Disponible para prácticas o pasantías</text>
+  <text x="98" y="993" fill="#56625b" font-family="Arial,sans-serif" font-size="11">Reposo · hover · foco teclado · deshabilitado solo si aplica</text>
+
+  <rect x="716" y="762" width="652" height="250" rx="4" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="744" y="804" fill="#56625b" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">FORMULARIO · ESTADOS Y ETIQUETAS VISIBLES</text>
+  <text x="744" y="840" fill="#1d2622" font-family="Arial,sans-serif" font-size="12" font-weight="700">Tu nombre</text>
+  <rect x="744" y="850" width="260" height="42" rx="2" fill="#fffefa" stroke="#aeb8af"/>
+  <text x="758" y="876" fill="#8a938c" font-family="Arial,sans-serif" font-size="12">Nombre y apellido</text>
+  <text x="1026" y="840" fill="#1d2622" font-family="Arial,sans-serif" font-size="12" font-weight="700">Tu correo</text>
+  <rect x="1026" y="850" width="310" height="42" rx="2" fill="#fffefa" stroke="#aeb8af"/>
+  <text x="1040" y="876" fill="#8a938c" font-family="Arial,sans-serif" font-size="12">nombre@correo.com</text>
+  <text x="744" y="923" fill="#1d2622" font-family="Arial,sans-serif" font-size="12" font-weight="700">Tu mensaje</text>
+  <rect x="744" y="933" width="592" height="44" rx="2" fill="#fffefa" stroke="#aeb8af"/>
+  <text x="758" y="960" fill="#8a938c" font-family="Arial,sans-serif" font-size="12">Contame brevemente el motivo de tu consulta.</text>
+  <text x="744" y="997" fill="#56625b" font-family="Arial,sans-serif" font-size="11">Validación nativa · error junto al campo · nota de privacidad antes del envío</text>
+  <text x="72" y="1062" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Referencia de implementación: styles.css · tokens definidos en :root. Contraste y accesibilidad deben validarse en la implementación final.</text>
+</svg>

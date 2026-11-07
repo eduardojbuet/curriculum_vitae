@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es-AR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f4ef" />
+    <meta
+      name="description"
+      content="Caso de estudio académico de Cubrí Seguros: diseño e implementación frontend de un flujo multipaso de contratación simulada."
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Cubrí Seguros | Caso de estudio de Eduardo Buet" />
+    <meta
+      property="og:description"
+      content="Desafío, proceso, solución y alcance real del prototipo académico de contratación digital."
+    />
+    <meta
+      property="og:url"
+      content="https://eduardojbuet.github.io/curriculum_vitae/caso-cubri-seguros.html"
+    />
+    <meta
+      property="og:image"
+      content="https://eduardojbuet.github.io/curriculum_vitae/assets/eduardo-buet.jpg"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Cubrí Seguros | Caso de estudio académico</title>
+  </head>
+  <body class="detail-page">
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="wordmark" href="index.html#inicio" aria-label="Eduardo Buet, inicio">
+          <span class="wordmark-mark" aria-hidden="true">EB</span>
+          <span>Eduardo Buet<span class="wordmark-dot">.</span></span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          aria-label="Abrir menú"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="index.html#projects">Proyectos</a>
+          <a href="index.html#experience">Formación</a>
+          <a class="nav-contact" href="index.html#contact">Contacto <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido">
+      <section class="container detail-hero" aria-labelledby="case-title">
+        <a class="detail-back" href="index.html#projects">
+          <span aria-hidden="true">←</span> Volver a proyectos
+        </a>
+        <p class="eyebrow">CASO DE ESTUDIO · PROYECTO ACADÉMICO · 2026</p>
+        <h1 id="case-title">Cubrí Seguros</h1>
+        <p class="detail-lead">
+          Prototipo frontend multipágina para explorar una contratación digital de seguro de
+          celular, desde la cotización hasta un resultado de pago simulado.
+        </p>
+        <div class="detail-meta" aria-label="Tecnologías del proyecto">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>JSON</span>
+          <span>sessionStorage</span>
+        </div>
+      </section>
+
+      <section class="detail-section" aria-labelledby="challenge-title">
+        <div class="container">
+          <p class="eyebrow">01 — DESAFÍO</p>
+          <h2 id="challenge-title">Organizar una contratación de varios pasos.</h2>
+          <p>
+            El proyecto plantea un recorrido que reúne la información del equipo, la comparación de
+            coberturas, los datos del titular y el pago. El desafío de diseño y desarrollo fue
+            dividir ese recorrido en etapas comprensibles y mantener la información necesaria
+            mientras la persona avanza.
+          </p>
+          <div class="detail-callout">
+            <p>
+              <strong>Alcance:</strong> trabajo académico de interfaz y lógica frontend. No es un
+              producto asegurador real, no ofrece cobertura y no procesa pagos verdaderos.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section" aria-labelledby="process-title">
+        <div class="container">
+          <p class="eyebrow">02 — PROCESO</p>
+          <h2 id="process-title">De la cotización a la confirmación.</h2>
+          <div class="detail-grid">
+            <article class="detail-card">
+              <h3>01 · Cotización</h3>
+              <p>
+                Se solicitan marca, modelo, valor y antigüedad del equipo para preparar una
+                estimación.
+              </p>
+            </article>
+            <article class="detail-card">
+              <h3>02 · Selección de plan</h3>
+              <p>
+                Los planes se cargan desde un archivo JSON y las cuotas se calculan según el valor
+                y la antigüedad informados.
+              </p>
+            </article>
+            <article class="detail-card">
+              <h3>03 · Datos del titular</h3>
+              <p>
+                El formulario valida los campos y presenta mensajes de error junto al control
+                correspondiente.
+              </p>
+            </article>
+            <article class="detail-card">
+              <h3>04 · Pago y resultado</h3>
+              <p>
+                El pago se simula para mostrar estados de aprobación o rechazo y permitir volver a
+                intentarlo.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section" aria-labelledby="implementation-title">
+        <div class="container">
+          <p class="eyebrow">03 — SOLUCIÓN IMPLEMENTADA</p>
+          <h2 id="implementation-title">Una experiencia navegable con estado explícito.</h2>
+          <ul>
+            <li>Navegación entre páginas con el estado de la solicitud en sessionStorage.</li>
+            <li>Validación de los formularios y foco en el primer campo con error.</li>
+            <li>Planes y cuotas representados dinámicamente a partir de datos.</li>
+            <li>Diseño responsive y estados de avance, procesamiento y resultado.</li>
+            <li>El número de tarjeta de pago no se persiste; los datos son de prueba.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="detail-section" aria-labelledby="outcome-title">
+        <div class="container">
+          <p class="eyebrow">04 — RESULTADO Y APRENDIZAJE</p>
+          <h2 id="outcome-title">El resultado es un prototipo, no una operación real.</h2>
+          <p>
+            La entrega implementa un recorrido frontend de punta a punta y deja explícito qué
+            sucede cuando el pago se aprueba o se rechaza. La documentación del proyecto incluye
+            reglas de cálculo, validaciones y números de prueba para la simulación.
+          </p>
+          <div class="detail-callout">
+            <p>
+              <strong>Reflexión:</strong> en flujos largos, informar qué paso sigue y explicar los
+              errores cerca del campo ayuda a que el recorrido sea más previsible. No se presentan
+              resultados de pruebas de usuarios porque todavía no se realizaron.
+            </p>
+          </div>
+          <div class="detail-links">
+            <a
+              class="button button-dark"
+              href="https://eduardojbuet.github.io/cubri-seguros/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Abrir prototipo <span aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="button button-light"
+              href="https://github.com/eduardojbuet/cubri-seguros"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver repositorio <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="wordmark footer-wordmark" href="index.html#inicio">
+          <span class="wordmark-mark" aria-hidden="true">EB</span>
+          <span>Eduardo Buet<span class="wordmark-dot">.</span></span>
+        </a>
+        <nav class="footer-nav" aria-label="Navegación del pie de página">
+          <a href="index.html#projects">Proyectos</a>
+          <a href="index.html#contact">Contacto</a>
+        </nav>
+        <p>© <span id="year"></span> Eduardo Javier Buet</p>
+      </div>
+    </footer>
+  </body>
+</html>

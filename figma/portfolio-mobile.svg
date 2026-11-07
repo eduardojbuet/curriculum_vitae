@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="2400" viewBox="0 0 390 2400">
+  <rect width="390" height="2400" fill="#f5f4ef"/>
+  <rect width="390" height="64" fill="#fffefa"/>
+  <path d="M0 63H390" stroke="#d7dcd4"/>
+  <circle cx="34" cy="32" r="16" fill="#1d2622"/>
+  <text x="34" y="36" fill="#fffefa" font-family="Arial,sans-serif" font-size="11" text-anchor="middle">EB</text>
+  <text x="60" y="37" fill="#1d2622" font-family="Arial,sans-serif" font-size="13" font-weight="700">Eduardo Buet.</text>
+  <rect x="334" y="10" width="42" height="42" fill="none" stroke="#d7dcd4"/>
+  <path d="M346 24H364M346 31H364M346 38H364" stroke="#1d2622"/>
+
+  <circle cx="25" cy="104" r="3" fill="#526f5b"/>
+  <text x="34" y="108" fill="#526f5b" font-family="Arial,sans-serif" font-size="8" font-weight="700">DISPONIBLE PARA PRÁCTICAS O PASANTÍAS</text>
+  <text x="22" y="126" fill="#526f5b" font-family="Arial,sans-serif" font-size="8" font-weight="700">PORTFOLIO ACADÉMICO · UADER</text>
+  <text x="20" y="170" fill="#1d2622" font-family="Georgia,serif" font-size="42">Eduardo</text>
+  <text x="20" y="216" fill="#526f5b" font-family="Georgia,serif" font-size="42" font-style="italic">Javier Buet</text>
+  <text x="22" y="255" fill="#354e3d" font-family="Arial,sans-serif" font-size="12">Estudiante de Licenciatura en</text>
+  <text x="22" y="275" fill="#354e3d" font-family="Arial,sans-serif" font-size="12">Sistemas de Información</text>
+  <text x="22" y="316" fill="#56625b" font-family="Arial,sans-serif" font-size="12">Sistemas, desarrollo web y diseño</text>
+  <text x="22" y="336" fill="#56625b" font-family="Arial,sans-serif" font-size="12">centrado en las personas.</text>
+  <rect x="22" y="364" width="178" height="44" fill="#1d2622"/>
+  <text x="38" y="391" fill="#fffefa" font-family="Arial,sans-serif" font-size="11">Explorar proyectos ↓</text>
+  <rect x="78" y="442" width="234" height="254" rx="116" fill="#dce8da"/>
+  <text x="195" y="572" fill="#526f5b" font-family="Georgia,serif" font-size="17" text-anchor="middle">Retrato de</text>
+  <text x="195" y="598" fill="#526f5b" font-family="Georgia,serif" font-size="17" text-anchor="middle">Eduardo Buet</text>
+
+  <rect y="730" width="390" height="270" fill="#eeede6"/>
+  <text x="22" y="773" fill="#1d2622" font-family="Georgia,serif" font-size="15">Formación universitaria y</text>
+  <text x="22" y="795" fill="#1d2622" font-family="Georgia,serif" font-size="15">práctica técnica.</text>
+  <g fill="#fffefa">
+    <rect x="22" y="822" width="164" height="70"/><rect x="194" y="822" width="174" height="70"/>
+    <rect x="22" y="904" width="164" height="70"/><rect x="194" y="904" width="174" height="70"/>
+  </g>
+  <g fill="#354e3d" font-family="Georgia,serif" font-size="24">
+    <text x="36" y="852">03</text><text x="208" y="852">20</text>
+    <text x="36" y="934">02</text><text x="208" y="934">01</text>
+  </g>
+  <g fill="#56625b" font-family="Arial,sans-serif" font-size="8">
+    <text x="36" y="875">PROYECTOS</text><text x="208" y="875">EJERCICIOS CSS</text>
+    <text x="36" y="957">PROYECTOS WEB</text><text x="208" y="957">CASO DE ESTUDIO</text>
+  </g>
+
+  <text x="22" y="1062" fill="#526f5b" font-family="Arial,sans-serif" font-size="9" font-weight="700">01 — PERFIL</text>
+  <text x="22" y="1107" fill="#1d2622" font-family="Georgia,serif" font-size="28">Sistemas con</text>
+  <text x="22" y="1140" fill="#526f5b" font-family="Georgia,serif" font-size="28" font-style="italic">perspectiva humana.</text>
+  <rect x="22" y="1162" width="346" height="84" fill="#fffefa" stroke="#d7dcd4"/>
+  <rect x="22" y="1258" width="346" height="84" fill="#fffefa" stroke="#d7dcd4"/>
+  <rect x="22" y="1354" width="346" height="84" fill="#fffefa" stroke="#d7dcd4"/>
+
+  <rect y="1472" width="390" height="250" fill="#eeede6"/>
+  <text x="22" y="1513" fill="#526f5b" font-family="Arial,sans-serif" font-size="9" font-weight="700">02 — HABILIDADES</text>
+  <text x="22" y="1554" fill="#1d2622" font-family="Georgia,serif" font-size="26">Pensar y construir.</text>
+  <text x="22" y="1593" fill="#1d2622" font-family="Arial,sans-serif" font-size="12">Desarrollo web · HTML · CSS · JS</text>
+  <text x="22" y="1628" fill="#1d2622" font-family="Arial,sans-serif" font-size="12">Programación · Python · C++ · PHP</text>
+  <text x="22" y="1663" fill="#1d2622" font-family="Arial,sans-serif" font-size="12">Datos · SQL · UX/UI · GitHub</text>
+
+  <text x="22" y="1780" fill="#526f5b" font-family="Arial,sans-serif" font-size="9" font-weight="700">03 — PROYECTOS</text>
+  <text x="22" y="1822" fill="#1d2622" font-family="Georgia,serif" font-size="30">Proyectos académicos.</text>
+  <rect x="22" y="1845" width="346" height="250" fill="#28332d"/>
+  <text x="40" y="1876" fill="#c6d9c2" font-family="Arial,sans-serif" font-size="8">CASO DE ESTUDIO · 2026</text>
+  <text x="40" y="1922" fill="#fffefa" font-family="Georgia,serif" font-size="28">Cubrí Seguros</text>
+  <text x="40" y="1955" fill="#e1e6e2" font-family="Arial,sans-serif" font-size="10">Desafío → proceso → solución</text>
+  <text x="40" y="1974" fill="#e1e6e2" font-family="Arial,sans-serif" font-size="10">→ resultado</text>
+  <rect x="22" y="2110" width="346" height="100" fill="#fffefa" stroke="#d7dcd4"/>
+  <rect x="22" y="2224" width="346" height="100" fill="#fffefa" stroke="#d7dcd4"/>
+  <text x="38" y="2152" fill="#1d2622" font-family="Georgia,serif" font-size="20">Coffea · landing page</text>
+  <text x="38" y="2266" fill="#1d2622" font-family="Georgia,serif" font-size="20">OpenArt · exploración</text>
+  <rect y="2342" width="390" height="58" fill="#28332d"/>
+  <text x="22" y="2378" fill="#fffefa" font-family="Arial,sans-serif" font-size="11">Formación · Contacto · GitHub</text>
+</svg>
